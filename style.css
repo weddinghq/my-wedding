@@ -69,10 +69,22 @@ table {
   width: 50%;
 }
 
+@media screen and (max-width: 768px) {
+  .wrap .bank-info {
+    width: 100%;
+  }
+}
+
 .wrap .bank-info .title {
   font-size: 32px;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap .bank-info .title {
+    font-size: 24px;
+  }
 }
 
 .wrap .bank-info .wrap-bank {
@@ -91,14 +103,32 @@ table {
   padding-left: 32px;
 }
 
+@media screen and (max-width: 768px) {
+  .wrap .bank-info .wrap-bank .left {
+    padding-left: 8px;
+  }
+}
+
 .wrap .bank-info .wrap-bank .left .sub-title {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   padding-top: 8px;
 }
 
+@media screen and (max-width: 768px) {
+  .wrap .bank-info .wrap-bank .left .sub-title {
+    font-size: 14px;
+  }
+}
+
 .wrap .img-wrap {
   width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap .img-wrap {
+    width: 100%;
+  }
 }
 
 .wrap .img-wrap .img {
