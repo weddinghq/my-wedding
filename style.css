@@ -72,6 +72,7 @@ table {
 @media screen and (max-width: 768px) {
   .wrap .bank-info {
     width: 100%;
+    padding-bottom: 0;
   }
 }
 
@@ -118,6 +119,18 @@ table {
 @media screen and (max-width: 768px) {
   .wrap .bank-info .wrap-bank .left .sub-title {
     font-size: 14px;
+  }
+}
+
+.wrap .bank-info .map {
+  margin: 0 0 120px 0;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap .bank-info .map .map-info {
+    width: 100%;
+    margin-top: 24px;
   }
 }
 
